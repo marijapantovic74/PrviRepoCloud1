@@ -15,8 +15,8 @@ bool Bolji(Takmicar t1,Takmicar t2)
         return t1.ime<t2.ime;
     else
         return false;
-    }
-
+}
+//Ovo je pokretacka metoda
 int main()
 {
   int n;
