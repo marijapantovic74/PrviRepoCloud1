@@ -6,7 +6,7 @@ typedef struct {
     string ime;
     int poeni;
 }Takmicar;
-
+//Funkcija koja poredi uspeh dva takmicara 
 bool Bolji(Takmicar t1,Takmicar t2)
 {
     if(t1.poeni>t2.poeni)
